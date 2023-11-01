@@ -8,7 +8,7 @@ This folder contains extensions that help in performing basic arithmetic operati
 
 **<u>How to Use</u>**:
 
-1. Write a step: **Sum("number1","number2") returning $result**
+1. Write a step: `Sum("number1","number2") returning $result`.
 
 2. You can also pass in variables e.g. $var1, $var2.
 
@@ -33,7 +33,7 @@ This folder contains extensions that help in performing basic arithmetic operati
 
 **<u>How to Use</u>**:
 
-1. Write a step: **Subtract("number1","number2") returning $result**
+1. Write a step: `Subtract("number1","number2") returning $result`.
 
 2. You can also pass in variables e.g. $var1, $var2.
 
@@ -58,7 +58,7 @@ This folder contains extensions that help in performing basic arithmetic operati
 
 **<u>How to Use</u>**:
 
-1. Write a step: **Multiply("number1","number2") returning $result**
+1. Write a step: `Multiply("number1","number2") returning $result`.
 
 2. You can also pass in variables e.g. $var1, $var2.
 
@@ -83,7 +83,7 @@ This folder contains extensions that help in performing basic arithmetic operati
 
 **<u>How to Use</u>**:
 
-1. Write a step: **Divide("number1","number2") returning $result**
+1. Write a step: `Divide("number1","number2") returning $result`.
 2. You can also pass in variables e.g. $var1, $var2.
 
 **<u>Add to Virtuoso</u>**:
