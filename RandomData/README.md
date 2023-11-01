@@ -1,4 +1,4 @@
-# Geenrating random data
+# Generating random data
 
 This folder contains extensions that help in generating random data useful for basic data-driven tests.
 
