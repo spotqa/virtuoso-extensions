@@ -4,38 +4,89 @@ This folder contains extensions that help in performing basic arithmetic operati
 
 ## Sum
 
-**<u>Description</u>**: This NLP extension allows you to pass in two or more numbers as inputs and the output will be the sum of those inputs.
+**<u>Description</u>**: This NLP extension allows you to pass in two or more numbers as inputs and the output will be the sum of the numbers.
 
 **<u>How to Use</u>**:
 
 1. Write a step: **Sum("number1","number2") returning $result**
-2. You can also pass in variables e.g. $var1, $var2
+
+2. You can also pass in variables e.g. $var1, $var2.
+
 3. By default, the extension is set to add only 2 numbers.
+
 4. If you want to add more numbers, then you can modify the extension e.g.
-   1. s = Number(Num1) + Number(Num2) + Number(Num3);
-   2. s = Number(Num1) + Number(Num2) + Number(Num3) + Number(Num4);
-   3. You will also need to add the Num3, Num4 etc to the inputs above
+
+   - s = Number(Num1) + Number(Num2) + Number(Num3);
+
+   - s = Number(Num1) + Number(Num2) + Number(Num3) + Number(Num4);
+
+   - You will also need to add the Num3, Num4 etc to the inputs above.
+
+**<u>Add to Virtuoso</u>**:
 
 - <a href="https://app2.virtuoso.qa/#/add-language-extension?name=Sum&org=true&script=eyJuYW1lIjoiU3VtIiwic2NyaXB0IjoiLy8gTm90ZSB0aGlzIGV4dGVuc2lvbiBpcyBub3QgYSBwcm9kdWN0IGZlYXR1cmUgb2YgVmlydHVvc28gYW5kIGlzIG5vdCBvZmZpY2lhbGx5IHN1cHBvcnRlZFxuLy8gRXh0ZW5zaW9ucyB1c2UgamF2YXNjcmlwdCB3aGljaCBtYXkgb3IgbWF5IG5vdCBiZSBjb21wYXRpYmxlIHdpdGggc3lzdGVtcyB1bmRlciB0ZXN0IChTVVRzKVxuLy8gV2Ugd2VsY29tZSB5b3UgdG8gdXNlIHRoaXMgZXh0ZW5zaW9uIG9yIGFkYXB0IGl0IGZvciB5b3VyIG5lZWRzXG5cbi8vIEluc3RydWN0aW9uczpcbi8vIFdyaXRlIGEgc3RlcDogU3VtKFwibnVtYmVyMVwiLFwibnVtYmVyMlwiKSByZXR1cm5pbmcgcmVzdWx0XG4vLyBZb3UgY2FuIGFsc28gcGFzcyBpbiB2YXJpYWJsZXMgZS5nLiAkdmFyMSwgJHZhcjJcblxudmFyIHMgPSAwO1xucyA9IE51bWJlcihOdW0xKSArIE51bWJlcihOdW0yKTtcbnJldHVybiBzO1xuXG4vLyBJZiB5b3Ugd2FudCB0byBhZGQgbW9yZSBudW1iZXJzLCB0aGVuIHlvdSBjYW4gbW9kaWZ5IGFib3ZlIGluIGxpbmUgNSBlLmcuIFxuLy8gcyA9IE51bWJlcihOdW0xKSArIE51bWJlcihOdW0yKSArIE51bWJlcihOdW0zKTtcbi8vIHMgPSBOdW1iZXIoTnVtMSkgKyBOdW1iZXIoTnVtMikgKyBOdW1iZXIoTnVtMykgKyBOdW1iZXIoTnVtNCk7XG4vLyBZb3Ugd2lsbCBhbHNvIG5lZWQgdG8gYWRkIHRoZSBOdW0zLCBOdW00IGV0YyB0byB0aGUgaW5wdXRzIGFib3ZlIiwiaW5wdXRzIjpbIk51bTEiLCJOdW0yIl0sImFzeW5jIjpmYWxzZSwibGFzdE1vZGlmaWVkIjoxNjkxMDYwMjg3OTM3LCJyZXNvdXJjZXMiOltdLCJkaXJlY3RpdmUiOmZhbHNlLCJkZXNjcmlwdGlvbiI6IkFkZCB0b2dldGhlciB1cCB0byB0d28gaW5wdXRzIn0%3D" class="button big">Add to app2 (Free trial) env</a>
 - <a href="https://app.virtuoso.qa/#/add-language-extension?name=Sum&org=true&script=eyJuYW1lIjoiU3VtIiwic2NyaXB0IjoiLy8gTm90ZSB0aGlzIGV4dGVuc2lvbiBpcyBub3QgYSBwcm9kdWN0IGZlYXR1cmUgb2YgVmlydHVvc28gYW5kIGlzIG5vdCBvZmZpY2lhbGx5IHN1cHBvcnRlZFxuLy8gRXh0ZW5zaW9ucyB1c2UgamF2YXNjcmlwdCB3aGljaCBtYXkgb3IgbWF5IG5vdCBiZSBjb21wYXRpYmxlIHdpdGggc3lzdGVtcyB1bmRlciB0ZXN0IChTVVRzKVxuLy8gV2Ugd2VsY29tZSB5b3UgdG8gdXNlIHRoaXMgZXh0ZW5zaW9uIG9yIGFkYXB0IGl0IGZvciB5b3VyIG5lZWRzXG5cbi8vIEluc3RydWN0aW9uczpcbi8vIFdyaXRlIGEgc3RlcDogU3VtKFwibnVtYmVyMVwiLFwibnVtYmVyMlwiKSByZXR1cm5pbmcgcmVzdWx0XG4vLyBZb3UgY2FuIGFsc28gcGFzcyBpbiB2YXJpYWJsZXMgZS5nLiAkdmFyMSwgJHZhcjJcblxudmFyIHMgPSAwO1xucyA9IE51bWJlcihOdW0xKSArIE51bWJlcihOdW0yKTtcbnJldHVybiBzO1xuXG4vLyBJZiB5b3Ugd2FudCB0byBhZGQgbW9yZSBudW1iZXJzLCB0aGVuIHlvdSBjYW4gbW9kaWZ5IGFib3ZlIGluIGxpbmUgNSBlLmcuIFxuLy8gcyA9IE51bWJlcihOdW0xKSArIE51bWJlcihOdW0yKSArIE51bWJlcihOdW0zKTtcbi8vIHMgPSBOdW1iZXIoTnVtMSkgKyBOdW1iZXIoTnVtMikgKyBOdW1iZXIoTnVtMykgKyBOdW1iZXIoTnVtNCk7XG4vLyBZb3Ugd2lsbCBhbHNvIG5lZWQgdG8gYWRkIHRoZSBOdW0zLCBOdW00IGV0YyB0byB0aGUgaW5wdXRzIGFib3ZlIiwiaW5wdXRzIjpbIk51bTEiLCJOdW0yIl0sImFzeW5jIjpmYWxzZSwibGFzdE1vZGlmaWVkIjoxNjkxMDYwMjg3OTM3LCJyZXNvdXJjZXMiOltdLCJkaXJlY3RpdmUiOmZhbHNlLCJkZXNjcmlwdGlvbiI6IkFkZCB0b2dldGhlciB1cCB0byB0d28gaW5wdXRzIn0%3D" class="button big">Add to app (Production) env</a>
 
 ## Subtract
 
-Subtract two more more inputs.
+**<u>Description</u>**: This NLP extension allows you to pass in two or more numbers as inputs and the output will be the difference of the numbers.
+
+**<u>How to Use</u>**:
+
+1. Write a step: **Subtract("number1","number2") returning $result**
+
+2. You can also pass in variables e.g. $var1, $var2.
+
+3. By default, the extension is set to subtract number 2 from number 1.
+
+4. If you want to subtract more numbers, then you can modify the extension e.g.
+
+   - s = Number(Num1) - Number(Num2) - Number(Num3);
+
+   - s = Number(Num1) - Number(Num2) - Number(Num3) - Number(Num4);
+
+   - You will also need to add the Num3, Num4 etc to the inputs above.
+
+**<u>Add to Virtuoso</u>**:
 
 - <a href="https://app2.virtuoso.qa/#/add-language-extension?name=Subtract&org=true&script=eyJuYW1lIjoiU3VidHJhY3QiLCJzY3JpcHQiOiIvLyBOb3RlIHRoaXMgZXh0ZW5zaW9uIGlzIG5vdCBhIHByb2R1Y3QgZmVhdHVyZSBvZiBWaXJ0dW9zbyBhbmQgaXMgbm90IG9mZmljaWFsbHkgc3VwcG9ydGVkXG4vLyBFeHRlbnNpb25zIHVzZSBqYXZhc2NyaXB0IHdoaWNoIG1heSBvciBtYXkgbm90IGJlIGNvbXBhdGlibGUgd2l0aCBzeXN0ZW1zIHVuZGVyIHRlc3QgKFNVVHMpXG4vLyBXZSB3ZWxjb21lIHlvdSB0byB1c2UgdGhpcyBleHRlbnNpb24gb3IgYWRhcHQgaXQgZm9yIHlvdXIgbmVlZHNcblxuLy8gSW5zdHJ1Y3Rpb25zOlxuLy8gV3JpdGUgYSBzdGVwOiBTdWJ0cmFjdChcIm51bWJlcjFcIixcIm51bWJlcjJcIikgcmV0dXJuaW5nIHJlc3VsdFxuLy8gWW91IGNhbiBhbHNvIHBhc3MgaW4gdmFyaWFibGVzIGUuZy4gJHZhcjEsICR2YXIyXG5cbnZhciBzID0gMDtcbnMgPSBOdW1iZXIoTnVtMSkgLSBOdW1iZXIoTnVtMik7XG5yZXR1cm4gcztcblxuLy8gSWYgeW91IHdhbnQgdG8gYWRkIG1vcmUgbnVtYmVycywgdGhlbiB5b3UgY2FuIG1vZGlmeSBhYm92ZSBpbiBsaW5lIDUgZS5nLiBcbi8vIHMgPSBOdW1iZXIoTnVtMSkgLSBOdW1iZXIoTnVtMikgLSBOdW1iZXIoTnVtMyk7XG4vLyBzID0gTnVtYmVyKE51bTEpIC0gTnVtYmVyKE51bTIpIC0gTnVtYmVyKE51bTMpIC0gTnVtYmVyKE51bTQpO1xuLy8gWW91IHdpbGwgYWxzbyBuZWVkIHRvIGFkZCB0aGUgTnVtMywgTnVtNCBldGMgdG8gdGhlIGlucHV0cyBhYm92ZSIsImlucHV0cyI6WyJOdW0xIiwiTnVtMiJdLCJhc3luYyI6ZmFsc2UsImxhc3RNb2RpZmllZCI6MTY5MTA2MDI4NzkzOSwicmVzb3VyY2VzIjpbXSwiZGlyZWN0aXZlIjpmYWxzZSwiZGVzY3JpcHRpb24iOiJTdWJ0cmFjdCB0d28gaW5wdXRzIn0%3D" class="button big">Add to app2 (Free trial) env</a>
 - <a href="https://app.virtuoso.qa/#/add-language-extension?name=Subtract&org=true&script=eyJuYW1lIjoiU3VidHJhY3QiLCJzY3JpcHQiOiIvLyBOb3RlIHRoaXMgZXh0ZW5zaW9uIGlzIG5vdCBhIHByb2R1Y3QgZmVhdHVyZSBvZiBWaXJ0dW9zbyBhbmQgaXMgbm90IG9mZmljaWFsbHkgc3VwcG9ydGVkXG4vLyBFeHRlbnNpb25zIHVzZSBqYXZhc2NyaXB0IHdoaWNoIG1heSBvciBtYXkgbm90IGJlIGNvbXBhdGlibGUgd2l0aCBzeXN0ZW1zIHVuZGVyIHRlc3QgKFNVVHMpXG4vLyBXZSB3ZWxjb21lIHlvdSB0byB1c2UgdGhpcyBleHRlbnNpb24gb3IgYWRhcHQgaXQgZm9yIHlvdXIgbmVlZHNcblxuLy8gSW5zdHJ1Y3Rpb25zOlxuLy8gV3JpdGUgYSBzdGVwOiBTdWJ0cmFjdChcIm51bWJlcjFcIixcIm51bWJlcjJcIikgcmV0dXJuaW5nIHJlc3VsdFxuLy8gWW91IGNhbiBhbHNvIHBhc3MgaW4gdmFyaWFibGVzIGUuZy4gJHZhcjEsICR2YXIyXG5cbnZhciBzID0gMDtcbnMgPSBOdW1iZXIoTnVtMSkgLSBOdW1iZXIoTnVtMik7XG5yZXR1cm4gcztcblxuLy8gSWYgeW91IHdhbnQgdG8gYWRkIG1vcmUgbnVtYmVycywgdGhlbiB5b3UgY2FuIG1vZGlmeSBhYm92ZSBpbiBsaW5lIDUgZS5nLiBcbi8vIHMgPSBOdW1iZXIoTnVtMSkgLSBOdW1iZXIoTnVtMikgLSBOdW1iZXIoTnVtMyk7XG4vLyBzID0gTnVtYmVyKE51bTEpIC0gTnVtYmVyKE51bTIpIC0gTnVtYmVyKE51bTMpIC0gTnVtYmVyKE51bTQpO1xuLy8gWW91IHdpbGwgYWxzbyBuZWVkIHRvIGFkZCB0aGUgTnVtMywgTnVtNCBldGMgdG8gdGhlIGlucHV0cyBhYm92ZSIsImlucHV0cyI6WyJOdW0xIiwiTnVtMiJdLCJhc3luYyI6ZmFsc2UsImxhc3RNb2RpZmllZCI6MTY5MTA2MDI4NzkzOSwicmVzb3VyY2VzIjpbXSwiZGlyZWN0aXZlIjpmYWxzZSwiZGVzY3JpcHRpb24iOiJTdWJ0cmFjdCB0d28gaW5wdXRzIn0%3D" class="button big">Add to app (Production) env</a>
 
 ## Multiply
 
-Multiply two or more numbers.
+**<u>Description</u>**: This NLP extension allows you to pass in two or more numbers as inputs and the output will be the product of the numbers.
+
+**<u>How to Use</u>**:
+
+1. Write a step: **Multiply("number1","number2") returning $result**
+
+2. You can also pass in variables e.g. $var1, $var2.
+
+3. By default, the extension is set to subtract number 2 from number 1.
+
+4. If you want to multiply more numbers, then you can modify the extension e.g.
+
+   - s = Number(Num1) * Number(Num2) * Number(Num3);
+
+   - s = Number(Num1) * Number(Num2) * Number(Num3) * Number(Num4);
+
+   - You will also need to add the Num3, Num4 etc to the inputs above.
+
+**<u>Add to Virtuoso</u>**:
 
 - <a href="https://app2.virtuoso.qa/#/add-language-extension?name=Multiply&org=true&script=eyJuYW1lIjoiTXVsdGlwbHkiLCJzY3JpcHQiOiIvLyBOb3RlIHRoaXMgZXh0ZW5zaW9uIGlzIG5vdCBhIHByb2R1Y3QgZmVhdHVyZSBvZiBWaXJ0dW9zbyBhbmQgaXMgbm90IG9mZmljaWFsbHkgc3VwcG9ydGVkXG4vLyBFeHRlbnNpb25zIHVzZSBqYXZhc2NyaXB0IHdoaWNoIG1heSBvciBtYXkgbm90IGJlIGNvbXBhdGlibGUgd2l0aCBzeXN0ZW1zIHVuZGVyIHRlc3QgKFNVVHMpXG4vLyBXZSB3ZWxjb21lIHlvdSB0byB1c2UgdGhpcyBleHRlbnNpb24gb3IgYWRhcHQgaXQgZm9yIHlvdXIgbmVlZHNcblxuLy8gSW5zdHJ1Y3Rpb25zOlxuLy8gV3JpdGUgYSBzdGVwOiBNdWx0aXBseShcIm51bWJlcjFcIixcIm51bWJlcjJcIikgcmV0dXJuaW5nIHJlc3VsdFxuLy8gWW91IGNhbiBhbHNvIHBhc3MgaW4gdmFyaWFibGVzIGUuZy4gJHZhcjEsICR2YXIyXG5cbnZhciBzID0gMDtcbnMgPSBOdW1iZXIoTnVtMSkgKiBOdW1iZXIoTnVtMik7XG5yZXR1cm4gcztcblxuLy8gSWYgeW91IHdhbnQgdG8gbXVsdGlwbHkgbW9yZSBudW1iZXJzLCB0aGVuIHlvdSBjYW4gbW9kaWZ5IGFib3ZlIGluIGxpbmUgNSBlLmcuIFxuLy8gcyA9IE51bWJlcihOdW0xKSAqIE51bWJlcihOdW0yKSAqIE51bWJlcihOdW0zKTtcbi8vIHMgPSBOdW1iZXIoTnVtMSkgKiBOdW1iZXIoTnVtMikgKiBOdW1iZXIoTnVtMykgLSBOdW1iZXIoTnVtNCk7XG4vLyBZb3Ugd2lsbCBhbHNvIG5lZWQgdG8gYWRkIHRoZSBOdW0zLCBOdW00IGV0YyB0byB0aGUgaW5wdXRzIGFib3ZlIiwiaW5wdXRzIjpbIk51bTEiLCJOdW0yIl0sImFzeW5jIjpmYWxzZSwibGFzdE1vZGlmaWVkIjoxNjk4ODIxMTcyNDA4LCJyZXNvdXJjZXMiOltdLCJkaXJlY3RpdmUiOmZhbHNlLCJkZXNjcmlwdGlvbiI6Ik11bHRpcGx5IHR3byBpbnB1dHMifQ%3D%3D" class="button big">Add to app2 (Free trial) env</a>
 - <a href="https://app.virtuoso.qa/#/add-language-extension?name=Multiply&org=true&script=eyJuYW1lIjoiTXVsdGlwbHkiLCJzY3JpcHQiOiIvLyBOb3RlIHRoaXMgZXh0ZW5zaW9uIGlzIG5vdCBhIHByb2R1Y3QgZmVhdHVyZSBvZiBWaXJ0dW9zbyBhbmQgaXMgbm90IG9mZmljaWFsbHkgc3VwcG9ydGVkXG4vLyBFeHRlbnNpb25zIHVzZSBqYXZhc2NyaXB0IHdoaWNoIG1heSBvciBtYXkgbm90IGJlIGNvbXBhdGlibGUgd2l0aCBzeXN0ZW1zIHVuZGVyIHRlc3QgKFNVVHMpXG4vLyBXZSB3ZWxjb21lIHlvdSB0byB1c2UgdGhpcyBleHRlbnNpb24gb3IgYWRhcHQgaXQgZm9yIHlvdXIgbmVlZHNcblxuLy8gSW5zdHJ1Y3Rpb25zOlxuLy8gV3JpdGUgYSBzdGVwOiBNdWx0aXBseShcIm51bWJlcjFcIixcIm51bWJlcjJcIikgcmV0dXJuaW5nIHJlc3VsdFxuLy8gWW91IGNhbiBhbHNvIHBhc3MgaW4gdmFyaWFibGVzIGUuZy4gJHZhcjEsICR2YXIyXG5cbnZhciBzID0gMDtcbnMgPSBOdW1iZXIoTnVtMSkgKiBOdW1iZXIoTnVtMik7XG5yZXR1cm4gcztcblxuLy8gSWYgeW91IHdhbnQgdG8gbXVsdGlwbHkgbW9yZSBudW1iZXJzLCB0aGVuIHlvdSBjYW4gbW9kaWZ5IGFib3ZlIGluIGxpbmUgNSBlLmcuIFxuLy8gcyA9IE51bWJlcihOdW0xKSAqIE51bWJlcihOdW0yKSAqIE51bWJlcihOdW0zKTtcbi8vIHMgPSBOdW1iZXIoTnVtMSkgKiBOdW1iZXIoTnVtMikgKiBOdW1iZXIoTnVtMykgLSBOdW1iZXIoTnVtNCk7XG4vLyBZb3Ugd2lsbCBhbHNvIG5lZWQgdG8gYWRkIHRoZSBOdW0zLCBOdW00IGV0YyB0byB0aGUgaW5wdXRzIGFib3ZlIiwiaW5wdXRzIjpbIk51bTEiLCJOdW0yIl0sImFzeW5jIjpmYWxzZSwibGFzdE1vZGlmaWVkIjoxNjk4ODIxMTcyNDA4LCJyZXNvdXJjZXMiOltdLCJkaXJlY3RpdmUiOmZhbHNlLCJkZXNjcmlwdGlvbiI6Ik11bHRpcGx5IHR3byBpbnB1dHMifQ%3D%3D" class="button big">Add to app (Production) env</a>
 
 ## Divide
 
-Divide one number by another.
+**<u>Description</u>**: This NLP extension allows you to pass in two numbers as inputs and the output will be "number 1" divided by "number 2" (number 1/number 2).
+
+**<u>How to Use</u>**:
+
+1. Write a step: **Divide("number1","number2") returning $result**
+2. You can also pass in variables e.g. $var1, $var2.
+
+**<u>Add to Virtuoso</u>**:
 
 - <a href="https://app2.virtuoso.qa/#/add-language-extension?name=Divide&org=true&script=eyJuYW1lIjoiRGl2aWRlIiwic2NyaXB0IjoiLy8gTm90ZSB0aGlzIGV4dGVuc2lvbiBpcyBub3QgYSBwcm9kdWN0IGZlYXR1cmUgb2YgVmlydHVvc28gYW5kIGlzIG5vdCBvZmZpY2lhbGx5IHN1cHBvcnRlZFxuLy8gRXh0ZW5zaW9ucyB1c2UgamF2YXNjcmlwdCB3aGljaCBtYXkgb3IgbWF5IG5vdCBiZSBjb21wYXRpYmxlIHdpdGggc3lzdGVtcyB1bmRlciB0ZXN0IChTVVRzKVxuLy8gV2Ugd2VsY29tZSB5b3UgdG8gdXNlIHRoaXMgZXh0ZW5zaW9uIG9yIGFkYXB0IGl0IGZvciB5b3VyIG5lZWRzXG5cbi8vIEluc3RydWN0aW9uczpcbi8vIFdyaXRlIGEgc3RlcDogRGl2aWRlKFwibnVtYmVyMVwiLFwibnVtYmVyMlwiKSByZXR1cm5pbmcgcmVzdWx0XG4vLyBZb3UgY2FuIGFsc28gcGFzcyBpbiB2YXJpYWJsZXMgZS5nLiAkdmFyMSwgJHZhcjJcblxudmFyIHMgPSAwO1xucyA9IE51bWJlcihOdW0xKSAvIE51bWJlcihOdW0yKTtcbnJldHVybiBzOyIsImlucHV0cyI6WyJOdW0xIiwiTnVtMiJdLCJhc3luYyI6ZmFsc2UsImxhc3RNb2RpZmllZCI6MTY5MTA2MDI4NzkzOSwicmVzb3VyY2VzIjpbXSwiZGlyZWN0aXZlIjpmYWxzZSwiZGVzY3JpcHRpb24iOiJEaXZpZGUgdHdvIGlucHV0cyJ9" class="button big">Add to app2 (Free trial) env</a>
 - <a href="https://app.virtuoso.qa/#/add-language-extension?name=Divide&org=true&script=eyJuYW1lIjoiRGl2aWRlIiwic2NyaXB0IjoiLy8gTm90ZSB0aGlzIGV4dGVuc2lvbiBpcyBub3QgYSBwcm9kdWN0IGZlYXR1cmUgb2YgVmlydHVvc28gYW5kIGlzIG5vdCBvZmZpY2lhbGx5IHN1cHBvcnRlZFxuLy8gRXh0ZW5zaW9ucyB1c2UgamF2YXNjcmlwdCB3aGljaCBtYXkgb3IgbWF5IG5vdCBiZSBjb21wYXRpYmxlIHdpdGggc3lzdGVtcyB1bmRlciB0ZXN0IChTVVRzKVxuLy8gV2Ugd2VsY29tZSB5b3UgdG8gdXNlIHRoaXMgZXh0ZW5zaW9uIG9yIGFkYXB0IGl0IGZvciB5b3VyIG5lZWRzXG5cbi8vIEluc3RydWN0aW9uczpcbi8vIFdyaXRlIGEgc3RlcDogRGl2aWRlKFwibnVtYmVyMVwiLFwibnVtYmVyMlwiKSByZXR1cm5pbmcgcmVzdWx0XG4vLyBZb3UgY2FuIGFsc28gcGFzcyBpbiB2YXJpYWJsZXMgZS5nLiAkdmFyMSwgJHZhcjJcblxudmFyIHMgPSAwO1xucyA9IE51bWJlcihOdW0xKSAvIE51bWJlcihOdW0yKTtcbnJldHVybiBzOyIsImlucHV0cyI6WyJOdW0xIiwiTnVtMiJdLCJhc3luYyI6ZmFsc2UsImxhc3RNb2RpZmllZCI6MTY5MTA2MDI4NzkzOSwicmVzb3VyY2VzIjpbXSwiZGlyZWN0aXZlIjpmYWxzZSwiZGVzY3JpcHRpb24iOiJEaXZpZGUgdHdvIGlucHV0cyJ9" class="button big">Add to app (Production) env</a>
