@@ -8,7 +8,7 @@ This folder contains extensions that help with date related actions.
 
 **<u>How to Use</u>**:
 
-1. Write a step: **TodayUK returning $result**.
+1. Write a step: `TodayUK returning $result`.
 2. You will get a date string in the response in the "dd-mm-yyyy" format.
 
 **<u>Add to Virtuoso</u>**:
@@ -22,7 +22,7 @@ This folder contains extensions that help with date related actions.
 
 **<u>How to Use</u>**:
 
-1. Write a step: **FutureDateUK(DayCount)** returning $result**.
+1. Write a step: `FutureDateUK(DayCount) returning $result`.
 2. **DayCount** is the number of days in the future for which you want to generate the date.
 3. You will get a date string in the response in the "dd-mm-yyyy" format.
 
@@ -37,7 +37,7 @@ This folder contains extensions that help with date related actions.
 
 **<u>How to Use</u>**:
 
-1. Write a step: **TodayUS returning $result**.
+1. Write a step: `TodayUS returning $result`.
 2. You will get a date string in the response in the "mm-dd-yyyy" format.
 
 **<u>Add to Virtuoso</u>**:
@@ -51,7 +51,7 @@ This folder contains extensions that help with date related actions.
 
 **<u>How to Use</u>**:
 
-1. Write a step: **FutureDateUS(DayCount)** returning $result**.
+1. Write a step: `FutureDateUS(DayCount) returning $result`.
 2. **DayCount** is the number of days in the future for which you want to generate the date.
 3. You will get a date string in the response in the "mm-dd-yyyy" format.
 

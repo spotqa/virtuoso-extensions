@@ -21,6 +21,7 @@ This folder contains extensions that help in performing basic arithmetic operati
    - s = Number(Num1) + Number(Num2) + Number(Num3) + Number(Num4);
 
    - You will also need to add the Num3, Num4 etc to the inputs above.
+5. Alternatively, you can also use the shorthand expression `Sum("1","2") returning $result`.
 
 **<u>Add to Virtuoso</u>**:
 
@@ -33,19 +34,15 @@ This folder contains extensions that help in performing basic arithmetic operati
 
 **<u>How to Use</u>**:
 
-1. Write a step: `Subtract("number1","number2") returning $result`.
-
+1. Write a step: `Subtract("number1","number2") returning $result`. 
 2. You can also pass in variables e.g. $var1, $var2.
-
 3. By default, the extension is set to subtract number 2 from number 1.
-
 4. If you want to subtract more numbers, then you can modify the extension e.g.
 
    - s = Number(Num1) - Number(Num2) - Number(Num3);
-
    - s = Number(Num1) - Number(Num2) - Number(Num3) - Number(Num4);
-
    - You will also need to add the Num3, Num4 etc to the inputs above.
+5. Alternatively, you can also use the shorthand expression `Subtract("2","1") returning $result`.
 
 **<u>Add to Virtuoso</u>**:
 
@@ -71,6 +68,7 @@ This folder contains extensions that help in performing basic arithmetic operati
    - s = Number(Num1) * Number(Num2) * Number(Num3) * Number(Num4);
 
    - You will also need to add the Num3, Num4 etc to the inputs above.
+5. Alternatively, you can also use the shorthand expression `Multiple("1","2") returning $result`.
 
 **<u>Add to Virtuoso</u>**:
 
@@ -85,6 +83,7 @@ This folder contains extensions that help in performing basic arithmetic operati
 
 1. Write a step: `Divide("number1","number2") returning $result`.
 2. You can also pass in variables e.g. $var1, $var2.
+3. Alternatively, you can also use the shorthand expression `Divide("2","1") returning $result`.
 
 **<u>Add to Virtuoso</u>**:
 
