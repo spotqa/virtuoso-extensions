@@ -14,9 +14,7 @@ The README.md files inside each folder will guide you on how to add these extens
 - **[Logical](https://github.com/maneesh-virtuoso/extensions/tree/main/Logical)** - Contains a list of extensions that perform logical operations like comparing two values, replacing a value with another, etc.
 - **[RandomData](https://github.com/maneesh-virtuoso/extensions/tree/main/RandomData)** - Contains a list of extensions that let you generate randomised data for data-driven actions in your Virtuoso journeys.
 
-## Using expressions
-
-For some of the arithmetic operations, you can also directly use **expressions** to get the desired result. For example, if you want to add two numbers, you may use the extension shared [here](https://github.com/spotqa/virtuoso-extensions/tree/main/Arithmetic#sum) or make use of the expession: `store value ${ 1 + 2 } into $result`.
+**Disclaimer**: THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 
