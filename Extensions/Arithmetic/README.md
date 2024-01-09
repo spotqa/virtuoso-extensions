@@ -1,4 +1,4 @@
-# Artihmetic operations
+# Arithmetic operations
 
 This folder contains extensions that help in performing basic arithmetic operations.
 
