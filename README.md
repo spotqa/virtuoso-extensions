@@ -1,8 +1,8 @@
-# extensions
+# Extensions
 
 ## Overview
 
-This repository provides a list of extensions that can be used with you [Virtuoso](https://app.virtuoso.qa/) journeys. You can read more about Virtuoso extensions [here](https://docs.virtuoso.qa/guide/making-the-most-of-virtuoso/language-extensions.html#extensions-natural-language-extensions).
+This repository provides a list of extensions that can be used with your [Virtuoso](https://app.virtuoso.qa/) journeys. You can read more about Virtuoso extensions [here](https://docs.virtuoso.qa/guide/making-the-most-of-virtuoso/language-extensions.html#extensions-natural-language-extensions).
 
 The README.md files inside each folder will guide you on how to add these extensions to your Virtuoso project.
 

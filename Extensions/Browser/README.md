@@ -1,6 +1,6 @@
 # Browser actions
 
-This folder contains extensions that help in performing certain browser actions inside your Virtuoso journey.
+This folder contains a list of xtensions that help in performing certain browser actions inside your Virtuoso journey.
 
 ## BlankTab
 
